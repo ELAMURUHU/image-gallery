@@ -1,0 +1,21 @@
+.image-select {
+	display:flex;'
+	height:20rem;
+	gap:1rem;
+	
+}
+.image-select img{
+	/* margin-left:30px; */
+	width:230px;
+	height:270px;
+}
+.image-select img{
+	flex:1;
+	border-radius:1rem;
+	
+	transition:all .8s cubic-bezier(.25, .4, .45, 1.4);
+	
+}
+.image-select img:hover{
+	flex:5;
+}
